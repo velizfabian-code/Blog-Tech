@@ -5,3 +5,10 @@ header{
     max-width: 800px;
     margin: 0 auto;
 }
+
+main{
+    background-color:#ff0000;
+    color: #ff02fb;
+    max-width: 800px;
+    margin: o auto;
+}
