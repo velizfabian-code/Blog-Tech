@@ -12,3 +12,8 @@ main{
     max-width: 800px;
     margin: o auto;
 }
+
+img {
+    width: 80 px;
+    height: 80 px;
+}
