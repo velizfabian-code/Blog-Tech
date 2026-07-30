@@ -1,24 +1,34 @@
-header{
-    background-color: #ffffff;
-    color: #03611f;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+header {
+    background-color: #b4cbc5; /* cor de fundo */
+    color: #013005; /* cor da fonte */
+    text-align: center; /* centraliza o texto horizontalmente */
+    max-width: 800px; /* define a largura máxima que o elemento pode ter */
+    margin: 0 auto; /* centraliza o bloco inteiro na tela */
+    padding: 16px; /* espaçamento interno entre a borda e o conteúdo */
 }
 
-h1{
-    color: #ff0404;
+h1 {
+    color: #17048f;
 }
-main{
-    background-color:#fdfdfd;
-    color: #025a23;
-    max-width: 0 auto;
+
+main {
+    background-color: #e2e7cc;
+    color: #013005;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 16px;
+    display: flex; /* ativa o flexbox para alinhar os elementos filhos lado a lado */
 }
 
 img {
-    display: block;
-    width: 120px;
-    border: 4px solid #000000;
-    height: 120px;
+    width: 150px; /* define a largura fixa da imagem */
+    height: 150px; /* define a altura fixa da imagem */
+    border: 2px solid #17048f; /* adiciona uma borda sólida de 2px na cor azul/roxa */
+    display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
+    margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
 }
+
+.artigo-autor {
+    font-weight: bold; /* deixa o texto em negrito */
+}
+
